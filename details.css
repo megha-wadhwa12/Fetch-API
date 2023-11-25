@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card{
+    width: 750px;
+    height: 350px;
+    background-color: rgb(30, 189, 198);
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+    padding: 5vh;
+    border-radius: 20px;
+}
+
+#drinksImage{
+    width: 250px;
+    height: 250px;
+}
+
+#details>p{
+    padding: 1.2vh;
+    color: rgba(121, 21, 21, 0.776);
+    font-weight: 800;
+}
+
+#details>p>span{
+    color: white;
+}
+
+
+#goback{
+    width: 100px;
+    height: 30px;
+    margin: 10vh;
+    background-color: rgb(73, 176, 176);
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+
+#instructions{
+    font-style: italic;
+}
